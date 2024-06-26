@@ -1,0 +1,74 @@
+nav {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #333333;
+  }
+  
+  nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .hero img {
+    width: 100%;
+  }
+  
+  .three-wide {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .three-wide img {
+    width: 100%
+  }
+  
+  .one-third {
+    display: flex;
+    width: 100%;
+    height: 480px;
+    gap: 30px;
+  }
+  
+  .one-third img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .one-third article {
+    height: 90%;
+    overflow: scroll;
+    font-size: 20px;
+  }
+  
+  .one-third h2 {
+    font-size: 40px;
+  }
+  
+  .myArticle {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  button {
+    border-radius: 10px;
+    height: 10%;
+    width: 60%;
+    transition: background-color 350ms, color 350ms;
+  }
+  
+  button:hover {
+    background-color: gray;
+    color: white;
+  }
+  
+ 
